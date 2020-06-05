@@ -12,22 +12,28 @@ The model employed was [SageMaker's `XGBoost`](https://docs.aws.amazon.com/sagem
 
 ## Results
 
-### Original COMPAS
+### Original COMPAS (Dressel & Farid, 2018)
 
-|                | **African-American** | **Caucasian** |
-| -------------- | -------------------- | ------------- |
-| **Accuracy**   |                      |               |
-| False Positive |                      |               |
+**Accuracy**: 60.6%
+
+|                         | **African-American** | **Caucasian** |
+| ----------------------- | -------------------- | ------------- |
+| **False Positive Rate** | 40.4%                | 25.4%         |
 
 ### Proposed Model
 
-|                    | **African-American** | **Caucasian** |
-| ------------------ | -------------------- | ------------- |
-| **Accuracy**       |                      |               |
-| **False Positive** |                      |               |
+**Accuracy**: XX
+
+|                         | **African-American** | **Caucasian** |
+| ----------------------- | -------------------- | ------------- |
+| **False Positive Rate** | XX                   | XX            |
 
 ## Author
 
  Jose Storopoli, PhD - [ORCID](https://orcid.org/0000-0002-0559-5176) - [CV](https://storopoli.github.io)
 
 [thestoropoli@gmail.com](mailto:thestoropoli@gmail.com)
+
+## References
+
+Dressel, J., & Farid, H. (2018). The accuracy, fairness, and limits of predicting recidivism. *Science advances*, *4*(1), eaao5580. https://doi.org/10.1126/sciadv.aao5580
